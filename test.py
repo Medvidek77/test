@@ -1,8 +1,7 @@
 import discord
 from discord.ext import commands
 
-
-bot = discord.Client(intents=discord.Intents.all())
+bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 
 
 @bot.event
@@ -24,4 +23,4 @@ async def on_message(message):
 
 
 
-bot.run("MTE4MjczMzE1MTAxODE2MDI4OA.GqvMgc.t1woeLosMh71DHTJHAmMlj4f64EonNih-FEtIo")
+bot.run("MTE4MjczMzE1MTAxODE2MDI4OA.GkVmq_.26JCcjnicKpNqPqyZ_RdBwUscShli7EwgaxA94")
